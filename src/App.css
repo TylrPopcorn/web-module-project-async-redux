@@ -1,6 +1,45 @@
 .App {
   text-align: center;
+  color: black;
 }
+
+.Card {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: black;
+  color: red;
+
+  opacity: 0.8;
+  width: 80%;
+  padding: 0.8%;
+  margin-top: 1%;
+  margin-left: 10%;
+
+  border: 2px solid red;
+
+  font-family: 'Courier New';
+
+  transition: all 0.2 ease-in-out;
+
+}
+
+.Card:hover {
+  background-color: red;
+  border: 5px solid white;
+  color: white;
+}
+
+.ItemName {
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+.ItemId {
+  font-size: 1.3rem;
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -32,6 +71,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
